@@ -4,7 +4,7 @@ export const Possibility = () => {
   return (
     <div
       id="possibility"
-      className="container mx-auto mt-28 flex flex-col gap-12 px-5 text-white md:flex-row"
+      className="container mx-auto mt-32 flex flex-col gap-12 px-5 text-white md:flex-row"
     >
       <div className="flex flex-1 flex-col items-start justify-start gap-8">
         <h1 className="bg-gradient-text bg-clip-text text-4xl font-bold leading-snug text-transparent">
