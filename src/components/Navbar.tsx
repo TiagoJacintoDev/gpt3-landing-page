@@ -2,14 +2,14 @@ import { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../assets/logo.svg";
 
-const Navbar = () => {
+export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="container mx-auto flex w-full items-center justify-between py-8 px-5 text-white">
       <div className="flex items-center">
         <img src={logo} alt="logo" className="mr-12 w-16 cursor-pointer" />
         <ul className="hidden items-center gap-6 text-lg font-medium lg:flex">
-          <li className="">
+          <li>
             <a href="#home" className="hover:text-gray-200">
               Home
             </a>
@@ -98,5 +98,3 @@ const Navbar = () => {
     </div>
   );
 };
-
-export default Navbar;

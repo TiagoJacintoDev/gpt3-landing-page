@@ -4,10 +4,10 @@ export const Possibility = () => {
   return (
     <div
       id="possibility"
-      className="container mx-auto mt-32 flex flex-col gap-12 px-5 text-white md:flex-row"
+      className="container mx-auto mt-14 flex flex-col gap-6 px-5 text-white sm:mt-24 sm:gap-12 md:flex-row"
     >
-      <div className="flex flex-1 flex-col items-start justify-start gap-8">
-        <h1 className="bg-gradient-text bg-clip-text text-4xl font-bold leading-snug text-transparent">
+      <div className="flex flex-1 flex-col items-start justify-start gap-3 sm:gap-8">
+        <h1 className="bg-gradient-text bg-clip-text text-4xl font-bold leading-snug text-transparent sm:text-5xl">
           The Future is Now and You Just Need to Realize It. Step into Future
           Today. & Make it Happen.
         </h1>
@@ -15,7 +15,7 @@ export const Possibility = () => {
           Request Early Access to Get Started
         </p>
       </div>
-      <div className="flex flex-[1.5] flex-col gap-12">
+      <div className="mt-4 flex flex-[1.5] flex-col gap-12">
         <Feature
           text="From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded."
           title="Improving end distrusts instantly"

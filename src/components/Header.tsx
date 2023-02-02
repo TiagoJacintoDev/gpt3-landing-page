@@ -5,9 +5,9 @@ export const Header = () => {
   return (
     <div
       id="home"
-      className="container mx-auto flex flex-col gap-8 py-8 px-5 lg:flex-row"
+      className="container mx-auto flex flex-col gap-8 px-5 sm:py-8 lg:flex-row"
     >
-      <div className="mt-8 flex flex-1 flex-col items-start justify-start gap-8 lg:mt-16">
+      <div className="flex flex-1 flex-col items-start justify-start gap-8 sm:mt-8 lg:mt-16">
         <h1 className="bg-gradient-text bg-clip-text text-5xl font-black leading-snug text-transparent lg:text-6xl lg:leading-tight">
           Let's Build Something amazing with GPT-3 OpenAI
         </h1>
@@ -17,7 +17,7 @@ export const Header = () => {
           alteration boisterous the attachment. Party we years to order allow
           asked of.
         </p>
-        <div className="flex w-11/12">
+        <div className="flex w-full lg:w-11/12">
           <input
             type="email"
             className="flex-1 rounded rounded-r-none border-none bg-gray-800 py-3 px-4 text-lg text-white outline-none"
@@ -32,7 +32,7 @@ export const Header = () => {
         </div>
         <div className="flex items-center justify-start gap-6 text-white">
           <img src={people} alt="people" />
-          <p className="text-sm">
+          <p className="">
             1,600 people requested access a visit in last 24 hours
           </p>
         </div>

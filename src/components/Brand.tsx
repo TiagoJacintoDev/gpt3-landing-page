@@ -6,7 +6,7 @@ import slack from "../assets/slack.png";
 
 export const Brand = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center gap-6 py-8 px-12 lg:px-24">
+    <div className="container mx-auto flex flex-wrap items-center justify-center gap-6 py-8 px-5">
       <div>
         <img src={google} alt="google" />
       </div>

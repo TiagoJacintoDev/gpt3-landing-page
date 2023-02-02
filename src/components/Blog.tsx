@@ -9,9 +9,9 @@ export const Blog = () => {
   return (
     <div
       id="blog"
-      className="mx-12 mt-20 mb-8 flex flex-col items-start justify-start gap-12 lg:mx-24"
+      className="container mx-auto mt-10 mb-4 flex flex-col items-start justify-start gap-4 px-5 sm:mt-16 sm:mb-8 sm:gap-12"
     >
-      <h1 className="mb-8 bg-gradient-text bg-clip-text text-6xl font-bold leading-tight text-transparent">
+      <h1 className="mb-4 bg-gradient-text bg-clip-text py-2 text-4xl font-bold text-transparent md:text-5xl lg:text-6xl">
         A lot is happening, <br /> We are blogging about it.
       </h1>
       <div className="flex h-full w-full flex-col-reverse gap-6 lg:flex-row">
