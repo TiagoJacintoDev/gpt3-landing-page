@@ -1,6 +1,7 @@
 import { Navbar } from "./components/Navbar";
 import { Header } from "./components/Header";
 import { Brand } from "./components/Brand";
+import { WhatIsGPT3 } from "./components/WhatIsGPT3";
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
         <Header />
       </div>
       <Brand />
+      <WhatIsGPT3 />
     </div>
   );
 };
