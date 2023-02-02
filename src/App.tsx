@@ -4,6 +4,7 @@ import { Brand } from "./components/Brand";
 import { WhatIsGPT3 } from "./components/WhatIsGPT3";
 import { Possibility } from "./components/Possibility";
 import { Features } from "./components/Features";
+import { CTA } from "./components/CTA";
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
       <WhatIsGPT3 />
       <Possibility />
       <Features />
+      <CTA />
     </div>
   );
 };
