@@ -7,7 +7,7 @@ export const Features = () => {
       className="container mx-auto mt-8 flex flex-col gap-8 px-5 lg:flex-row"
     >
       <div className="flex flex-1 items-center justify-center max-sm:mt-2">
-        <img src={possibility} alt="possibility" />
+        <img loading="lazy" src={possibility} alt="possibility" />
       </div>
       <div className="gap-13 mt-4 flex flex-[1.5] flex-col items-start justify-center sm:mt-12">
         <h4 className="cursor-pointer text-[#71e5ff]">

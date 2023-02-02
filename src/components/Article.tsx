@@ -8,7 +8,12 @@ export const Article = ({ image, title, date }: Props) => {
   return (
     <div className="flex h-full w-full flex-col overflow-hidden rounded bg-footer text-white shadow">
       <div>
-        <img className="h-full w-full" src={image} alt="thumbnail" />
+        <img
+          loading="lazy"
+          className="h-full w-full"
+          src={image}
+          alt="thumbnail"
+        />
       </div>
       <div className="flex h-full flex-col items-start justify-between p-4">
         <div className="flex flex-col gap-2">

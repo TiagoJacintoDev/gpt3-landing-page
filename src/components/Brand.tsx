@@ -8,19 +8,19 @@ export const Brand = () => {
   return (
     <div className="container mx-auto flex flex-wrap items-center justify-center gap-6 py-8 px-5">
       <div>
-        <img src={google} alt="google" />
+        <img loading="lazy" src={google} alt="google" />
       </div>
       <div>
-        <img src={atlassian} alt="atlassian" />
+        <img loading="lazy" src={atlassian} alt="atlassian" />
       </div>
       <div>
-        <img src={dropbox} alt="dropbox" />
+        <img loading="lazy" src={dropbox} alt="dropbox" />
       </div>
       <div>
-        <img src={shopify} alt="shopify" />
+        <img loading="lazy" src={shopify} alt="shopify" />
       </div>
       <div>
-        <img src={slack} alt="slack" />
+        <img loading="lazy" src={slack} alt="slack" />
       </div>
     </div>
   );

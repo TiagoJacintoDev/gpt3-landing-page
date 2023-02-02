@@ -31,14 +31,14 @@ export const Header = () => {
           </button>
         </div>
         <div className="flex items-center justify-start gap-6 text-white">
-          <img src={people} alt="people" />
+          <img loading="lazy" src={people} alt="people" />
           <p className="">
             1,600 people requested access a visit in last 24 hours
           </p>
         </div>
       </div>
       <div className="mt-8 flex-1 lg:mt-0">
-        <img src={ai} className="h-full w-full" alt="ai" />
+        <img loading="lazy" src={ai} className="h-full w-full" alt="ai" />
       </div>
     </div>
   );
