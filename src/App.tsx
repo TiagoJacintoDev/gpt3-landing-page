@@ -1,5 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Header } from "./components/Header";
+import { Brand } from "./components/Brand";
 
 export const App = () => {
   return (
@@ -8,6 +9,7 @@ export const App = () => {
         <Navbar />
         <Header />
       </div>
+      <Brand />
     </div>
   );
 };
