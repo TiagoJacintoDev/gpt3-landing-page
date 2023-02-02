@@ -5,6 +5,8 @@ import { WhatIsGPT3 } from "./components/WhatIsGPT3";
 import { Possibility } from "./components/Possibility";
 import { Features } from "./components/Features";
 import { CTA } from "./components/CTA";
+import { Blog } from "./components/Blog";
+import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
@@ -18,6 +20,8 @@ export const App = () => {
       <Possibility />
       <Features />
       <CTA />
+      <Blog />
+      <Footer />
     </div>
   );
 };
