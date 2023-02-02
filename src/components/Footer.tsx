@@ -10,7 +10,7 @@ export const Footer = () => {
             Request Early Access
           </button>
         </div>
-        <div className="mt-10 flex flex-col justify-between gap-8 max-sm:ml-12 md:flex-row">
+        <div className="mt-10 flex flex-col justify-between gap-8 md:flex-row">
           <div className="flex flex-1 flex-col gap-4">
             <h1 className="text-4xl font-bold">GPT-3</h1>
             <p className="">
@@ -66,7 +66,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8">
           <h1 className="">
             © {new Date().getFullYear()} GPT-3. All rights reserved.
           </h1>
