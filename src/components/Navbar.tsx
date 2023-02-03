@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../assets/logo.svg";
+import { Link } from "react-scroll";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,29 +16,54 @@ export const Navbar = () => {
         />
         <ul className="hidden items-center gap-6 text-lg font-medium lg:flex">
           <li>
-            <a href="#home" className="hover:text-gray-200">
+            <Link
+              offset={-30}
+              smooth
+              to="#home"
+              className="cursor-pointer hover:text-gray-200"
+            >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#wgpt3" className="hover:text-gray-200">
+            <Link
+              offset={-30}
+              to="wgpt3"
+              smooth
+              className="cursor-pointer hover:text-gray-200"
+            >
               What is GPT?
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#features" className="hover:text-gray-200">
+            <Link
+              offset={-30}
+              smooth
+              to="features"
+              className="cursor-pointer hover:text-gray-200"
+            >
               Open AI
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#possibility" className="hover:text-gray-200">
+            <Link
+              offset={-30}
+              smooth
+              to="possibility"
+              className="cursor-pointer hover:text-gray-200"
+            >
               Case Studies
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#blog" className="hover:text-gray-200">
+            <Link
+              offset={-30}
+              smooth
+              to="blog"
+              className="cursor-pointer hover:text-gray-200"
+            >
               Library
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -67,26 +93,58 @@ export const Navbar = () => {
             <div className="absolute top-10 right-0 w-48 rounded bg-gray-800 py-10 px-8 font-semibold text-white shadow">
               <ul className="flex flex-col items-end justify-start gap-4">
                 <li className="transition duration-200 hover:-translate-y-1">
-                  <a href="#home">Home</a>
+                  <Link
+                    offset={-30}
+                    className="cursor-pointer"
+                    smooth
+                    to="home"
+                  >
+                    Home
+                  </Link>
                 </li>
                 <li className="transition duration-200 hover:-translate-y-1">
-                  <a href="#wgpt3">What is GPT?</a>
+                  <Link
+                    offset={-30}
+                    className="cursor-pointer"
+                    smooth
+                    to="wgpt3"
+                  >
+                    What is GPT?
+                  </Link>
                 </li>
                 <li className="transition duration-200 hover:-translate-y-1">
-                  <a href="#features">Open AI</a>
+                  <Link
+                    offset={-30}
+                    smooth
+                    className="cursor-pointer"
+                    to="features"
+                  >
+                    Open AI
+                  </Link>
                 </li>
                 <li className="transition duration-200 hover:-translate-y-1">
-                  <a href="#possibility">Case Studies</a>
+                  <Link
+                    offset={-30}
+                    className="cursor-pointer"
+                    smooth
+                    to="possibility"
+                  >
+                    Case Studies
+                  </Link>
                 </li>
                 <li className="transition duration-200 hover:-translate-y-1">
-                  <a href="#blog">Library</a>
+                  <Link
+                    offset={-30}
+                    className="cursor-pointer"
+                    to="blog"
+                    smooth
+                  >
+                    Library
+                  </Link>
                 </li>
               </ul>
               <div className="mt-4 flex flex-col items-end justify-start gap-4 md:hidden">
-                <a
-                  href="#home"
-                  className="transition duration-200 hover:-translate-y-1"
-                >
+                <a className="transition duration-200 hover:-translate-y-1">
                   Sign In
                 </a>
                 <button

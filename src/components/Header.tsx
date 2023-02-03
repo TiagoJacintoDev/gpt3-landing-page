@@ -9,10 +9,10 @@ export const Header = () => {
     >
       <div className="flex flex-1 flex-col items-start justify-start gap-8 sm:mt-8 lg:mt-16">
         <h1 className="bg-gradient-text bg-clip-text text-5xl font-black leading-snug text-transparent lg:text-6xl lg:leading-tight">
-          Let's Build Something amazing with GPT-3 OpenAI
+          Let's Build Something Amazing with GPT-3 OpenAI
         </h1>
         <p className="text-lg text-[#81AFDD]">
-          Yet bed any for travelling assistance indulgence unpleasing. Not
+          Yet bed any for traveling assistance indulgence unpleasing. Not
           thoughts all exercise blessing. Indulgence way everything joy
           alteration boisterous the attachment. Party we years to order allow
           asked of.
